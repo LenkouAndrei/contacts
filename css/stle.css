@@ -1,0 +1,65 @@
+.info {
+  width: 600px;
+  margin: 0 auto;
+}
+.info_name,
+.info_email,
+.info_phone,
+.info_buttons {
+  width: 90%;
+}
+.info_name,
+.info_email,
+.info_phone {
+  background-color: #e6e6e6;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 20px;
+}
+.info_field {
+  display: block;
+}
+.info_buttons,
+.info_field {
+  padding-top: 20px;
+}
+.info_buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.info_button {
+  padding: 10px 30px;
+  background-color: #5094f1;
+  border: none;
+  color: white;
+  font-weight: 800;
+}
+.info_button:hover {
+  background-color: #7fb1f5;
+  cursor: pointer;
+}
+.table-container {
+  width: 1000px;
+  margin: 20px auto 0 auto;
+  border: 2px solid #b3b3b3;
+  padding: 20px 50px;
+}
+.table-container_elem {
+  width: 100%;
+  text-align: center;
+}
+.table_ceil {
+  border-bottom: 2px solid #b3b3b3;
+  font-weight: 800;
+}
+.remove {
+  text-decoration: underline;
+  color: #5094f1;
+  cursor: pointer;
+}
+.error {
+  font-size: 14px;
+  font-weight: 800;
+  color: red;
+}

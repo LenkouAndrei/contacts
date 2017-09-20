@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>contacts</title>
+	<link rel="stylesheet" href="css/resMode.css">
+	<link rel="stylesheet" href="css/stle.css">
+</head>
+<body>
+		<form class="info" id="thisForm">
+		<fieldset>
+			<legend>Add item</legend>
+			<label for="name" class="info_field">Name<span id="err1" class="error"></span></label>
+			<input type="text" placeholder="Input name" id="name" class="info_name">
+			<label for="email" class="info_field">Email</label><span id="err3" class="error"></span>
+			<input type="text" placeholder="Your email address" id="email" class="info_email">
+			<label for="phone" class="info_field">Phone</label><span id="err2" class="error"></span>
+			<input type="text" placeholder="+375ZZXXXYYYY" id="phone" class="info_phone">
+			<div class="info_buttons">
+				<input type="button" value="Add" id="addit" class="info_button">
+				<input type="button" value="Get data" id="gData" class="info_button">
+				<input type="button" value="Clear" id="cLEAR" class="info_button">
+			</div>
+		</fieldset>
+	</form>
+	<div class="table-container">
+		<table cellspacing="0" data-present="true" class="table-container_elem table" id="table">
+		   <tr class="table_headline">
+			    <th class="table_ceil">#</th>
+			    <th class="table_ceil">Name</th>
+			    <th class="table_ceil">Email</th>
+			    <th class="table_ceil">Phone</th>
+			    <th class="table_ceil">&nbsp;</th>
+		   </tr>
+		 </table>
+	 </div>
+	 <script src="js/jquery-3.1.1.min.js"></script>
+	 <script src="js/form1.js"></script>
+</body>
+</html>
